@@ -3,4 +3,4 @@ from django.http import JsonResponse
 
 # Create your views here.
 def test(request):
-		return JsonResponse({'test': 'change test data'})
+		return JsonResponse({'test': 'before change'})
