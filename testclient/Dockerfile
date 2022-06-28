@@ -1,4 +1,4 @@
-FROM python:3.8.10
+FROM node:16.13.1
 
 WORKDIR /docker-workplace/test-server
 
