@@ -11,6 +11,6 @@ COPY . .
 
 RUN npm run build
 
-RUN serve -s build
+CMD ["serve", "-s", "build"]
 
 EXPOSE 3000
