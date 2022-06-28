@@ -7,7 +7,7 @@ function App() {
   const [test, setTest] = useState('')
 
   const testRequest = async () => {
-    const tmp = await axios.get('http://localhost:8000/testapp/test')
+    const tmp = await axios.get('http://unplanned-plan.shop/api/testapp/test')
     setTest(tmp.data.test)
   }
 
